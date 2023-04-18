@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background: rgb(30, 21, 21);
+}
+
 @font-face {
     font-family: Euclid Circular A Bold;
     src: url(../fonts/Euclid\ Circular\ A\ Bold.ttf);
@@ -30,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(9, 6, 6);
+    background: rgb(30, 21, 21);
 }
 
 nav {
@@ -42,6 +46,7 @@ header ul {
     display: flex;
     gap: 2rem;
     margin-right: 5rem;
+    list-style: none;
 }
 
 header img {
@@ -62,16 +67,17 @@ header img {
 }
 
 /* HEADER AREA END */
+
+/* FIRST SECTION START */
     
 section {
-    height: 140vh;
-    background: rgb(30, 21, 21);
-    background-image: url(./img/19.png);
+    height: 150vh;
+    /* background-image: url(./img/19.png); */
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: -5rem;
 }
-
+    
 .btn-circle {
     border: 1px solid;
     border-radius: 50px;
@@ -80,13 +86,13 @@ section {
     padding-top: 5rem;
 }
    
-section .pic22 {
+.pic22 {
     margin-left: 20rem;
     margin-top: 19rem;
     margin-bottom: -5rem;
 }
 
-section .daisy {
+.daisy {
     display: flex;
     justify-content: right;
     margin-top: -50rem;
@@ -102,7 +108,7 @@ h1 {
     font-weight: 400;
 }    
     
-h2 {
+section h2 {
     color:white;
     font-family: NewYork PERSONAL USE, sans-serif;
     text-align: center;
@@ -158,10 +164,66 @@ span {
     font-size: 20px;
 }
 
-   
+ /* FIRST SECTION END */  
+
+ /* SECOND SECTION START */
+
+section .second {
+    height: 100vh;
+}
+
+.line-one {
+    width:70%;
+    margin-left: 17rem;
+    color: rgb(151, 109, 32);
+}
+    
+.life-style {
+    width: 44%;
+    margin: 5rem 0 0 32rem;
+    font-size: 90px;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+}  
+
+.supplements {
+    color: gray;
+    width: 33%;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+    align-items:flex-start;
+    margin-left: 38rem;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 7rem;
+}
+
+.btn-check {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Euclid Circular A Regular, sans-serif;
+    margin-left: 52rem;
+    border: 0.5px solid;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.btn-check:hover {
+    background-color: rgb(227, 189, 118); 
+    border: 0px;
+    color: rgb(68, 63, 63);
+}
 
 
-
+.line-two {
+    width:70%;
+    margin-left: 17rem;
+    color: rgb(202, 170, 108);
+    margin-top: 12rem;
+}
+    
+ /* SECOND SECTION END */   
+  
 
 
 
