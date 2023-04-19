@@ -31,15 +31,13 @@ html {
 /* HEADER AREA  */
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgb(30, 21, 21);
-}
-
-nav {
-    position: sticky;
-    top: 0;
+    margin-bottom: 5rem;
 }
 
 header ul {
@@ -70,26 +68,29 @@ header img {
 
 /* FIRST SECTION START */
     
-section {
-    height: 150vh;
-    /* background-image: url(./img/19.png); */
+.first {
+    height: 110vh;
+    background-image: url(./img/19.png);
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: -5rem;
+    margin-bottom: 10rem;
 }
     
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-circle {
     border: 1px solid;
-    border-radius: 50px;
-    border-color: azure;
-    margin-left: 56.5rem;
-    padding-top: 5rem;
+    border-radius: 50%;
+    border-color: azure;  
 }
    
 .pic22 {
     margin-left: 20rem;
-    margin-top: 19rem;
-    margin-bottom: -5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .daisy {
@@ -116,7 +117,7 @@ section h2 {
     font-weight: 400;
 }
 
-span {
+span #home {
     color: rgb(151, 109, 32);
 }
 
@@ -155,7 +156,7 @@ span {
 
 .fashion-week {
     margin-left: 30rem;
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
     
 .f-week {
@@ -168,14 +169,15 @@ span {
 
  /* SECOND SECTION START */
 
-section .second {
-    height: 100vh;
+.second {
+    height: 100vh; 
 }
 
 .line-one {
     width:70%;
     margin-left: 17rem;
     color: rgb(151, 109, 32);
+    margin-top: 4rem;
 }
     
 .life-style {
@@ -214,7 +216,6 @@ section .second {
     color: rgb(68, 63, 63);
 }
 
-
 .line-two {
     width:70%;
     margin-left: 17rem;
@@ -222,8 +223,198 @@ section .second {
     margin-top: 12rem;
 }
     
- /* SECOND SECTION END */   
+/* SECOND SECTION END */   
   
+/* THIRD SECTION START */
+
+.third {
+    margin-bottom: 10rem;
+}
+
+article {
+    margin-bottom: 10rem;
+}
+
+.h2-selected {
+    width: 30%;
+    font-size: 90px;
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+    margin-top: -2rem;  
+}
+
+.line-three {
+    width: 9%;
+    color: rgb(151, 109, 32);
+    margin-left: 25rem;
+}
+
+.creative {
+    color: gray;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+    margin-left: 38rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+    
+.btn-view {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Euclid Circular A Regular, sans-serif;
+    margin-left: 90rem;
+    margin-top: -10rem;
+    border: 0.5px solid;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.btn-view:hover {
+    background-color: rgb(227, 189, 118); 
+    border: 0px;
+    color: rgb(68, 63, 63);
+}
+
+.sisters {
+    margin-bottom: 15rem;
+}
+
+.stephanie {
+    height: 110%;
+    margin-left: 20rem;
+}
+
+.shelby {
+    margin-left: 10rem;
+}
+    
+.etienne {
+    margin-left: 10rem;
+}
+
+.visual {
+    margin-left: 20rem;
+}
+
+/* THIRD SECTION END */
+
+/* FOURTH SECTION START */
+
+.fourth {
+    height: 150vh;
+    
+}
+
+.fourth ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 17.5rem;
+    padding-right: 19rem;
+    margin-bottom: -3rem;
+}
+
+.fourth h4 {
+    font-family: Euclid Circular A Regular, sans-serif;   
+}
+
+.fourth .area {
+    color: gray;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 13px;
+    padding-left: 40px;
+}
+
+.line-four {
+    width:70%;
+    margin-left: 17rem;
+    color: rgb(151, 109, 32);
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.link-block {
+    display: block;
+    flex-direction: column;
+    color: white;  
+    height: 50%;
+}
+    
+.link-block a {
+    text-decoration: none;
+}
+    
+.h2-fields {
+    font-family: NewYork PERSONAL USE, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+}
+    
+ #cloth {
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 8rem;   
+} 
+
+#style {
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 8.5rem;
+}
+
+#character {
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 6rem;
+}
+
+#designer {
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-left: 3rem;
+}
+
+#costume:hover {
+    color:rgb(241, 202, 129);
+}
+
+#acting:hover {
+    color:rgb(241, 202, 129);
+}
+
+#modelling:hover {
+    color:rgb(241, 202, 129);
+}
+
+#artist:hover {
+    color:rgb(241, 202, 129);
+}
+
+.img-17 {
+    margin-left: 20rem;
+}
+    
+.img-16 {
+    display: flex;
+    justify-content: right;
+    margin-right: 18rem;
+    margin-top: -43rem;
+}
+
+/* .line-five {
+    width:70%;
+    margin-left: 17rem;
+    color: rgb(151, 109, 32);
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+} */
 
 
 
@@ -231,37 +422,10 @@ section .second {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
 
 
 
