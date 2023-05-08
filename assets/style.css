@@ -61,14 +61,14 @@ header img {
 }
 
 .links span {
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
 }
 
 /* HEADER AREA END */
 
-/* FIRST SECTION START */
+/* SECTION UNRIVALED START */
     
-.first {
+.unrivaled {
     height: 110vh;
     background-image: url(./img/19.png);
     background-position: center;
@@ -79,13 +79,30 @@ header img {
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    
 }
 
 .btn-circle {
     border: 1px solid;
     border-radius: 50%;
-    border-color: azure;  
+    border-color: azure; 
+    position: relative;
+    top: 0;
+    left: 5px;
+    transition: top 0.2s ease-out; 
+   
 }
+
+.btn-circle:hover {
+    transform: translateX(-5px); 
+    top: -5px;
+    left: +5px;
+    background: white;
+}
+
+.btn-circle:hover + .btn {
+    transform: translateX(5px);
+  }
    
 .pic22 {
     margin-left: 20rem;
@@ -118,7 +135,7 @@ section h2 {
 }
 
 span #home {
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
 }
 
 .eyelashes {
@@ -165,18 +182,14 @@ span #home {
     font-size: 20px;
 }
 
- /* FIRST SECTION END */  
+ /* SECTION UNRIVALED END */
 
- /* SECOND SECTION START */
-
-.second {
-    height: 100vh; 
-}
+ /* SECTION FASHION FOR PASSION START */
 
 .line-one {
     width:70%;
     margin-left: 17rem;
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
     margin-top: 4rem;
 }
     
@@ -208,26 +221,36 @@ span #home {
     border: 0.5px solid;
     padding: 2rem;
     border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0;
 }
 
 .btn-check:hover {
-    background-color: rgb(227, 189, 118); 
+    background-color:  rgb(236, 190, 104);
     border: 0px;
     color: rgb(68, 63, 63);
+    transform: translateX(-10px);
+    top: -5px;
+}
+
+.btn-check:hover + .btn {
+    transform: translateX(10px);
 }
 
 .line-two {
     width:70%;
     margin-left: 17rem;
-    color: rgb(202, 170, 108);
+    color:  rgb(236, 190, 104);
     margin-top: 12rem;
+    margin-bottom: 7rem;
 }
     
-/* SECOND SECTION END */   
+/* SECTION FASHION FOR PASSION END */
   
-/* THIRD SECTION START */
+/* SECTION SELECTED WORKS START */
 
-.third {
+.selected-works {
     margin-bottom: 10rem;
 }
 
@@ -245,7 +268,7 @@ article {
 
 .line-three {
     width: 9%;
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
     margin-left: 25rem;
 }
 
@@ -267,13 +290,23 @@ article {
     border: 0.5px solid;
     padding: 2rem;
     border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+
 }
 
 .btn-view:hover {
-    background-color: rgb(227, 189, 118); 
+    background-color: rgb(236, 190, 104);
     border: 0px;
     color: rgb(68, 63, 63);
+    transform: translateX(-10px);
+    top: -5px;
 }
+
+.btn-view:hover + .btn {
+    transform: translateX(10px);
+  }
 
 .sisters {
     margin-bottom: 15rem;
@@ -296,15 +329,15 @@ article {
     margin-left: 20rem;
 }
 
-/* THIRD SECTION END */
+/* SECTION SELECTED WORKS END */
 
-/* FOURTH SECTION START */
+/* SECTION IMG CHANGE START */
 
-.fourth {
+.img-change {
     height: 140vh;
 }
 
-.fourth ul {
+.img-change ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -315,11 +348,11 @@ article {
     margin-bottom: -3rem;
 }
 
-.fourth h4 {
+.img-change h4 {
     font-family: Euclid Circular A Regular, sans-serif;   
 }
 
-.fourth .area {
+.img-change .area {
     color: gray;
     font-family: Euclid Circular A Regular, sans-serif;
     font-size: 13px;
@@ -329,7 +362,7 @@ article {
 .line-four {
     width:70%;
     margin-left: 17rem;
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
     margin-top: 4rem;
     margin-bottom: 5rem;
 }
@@ -382,19 +415,19 @@ article {
 }
 
 #costume:hover {
-    color:rgb(241, 202, 129);
+    color:  rgb(236, 190, 104);
 }
 
 #acting:hover {
-    color:rgb(241, 202, 129);
+    color:  rgb(236, 190, 104);
 }
 
 #modelling:hover {
-    color:rgb(241, 202, 129);
+    color:  rgb(236, 190, 104);
 }
 
 #artist:hover {
-    color:rgb(241, 202, 129);
+    color:  rgb(236, 190, 104);
 }
 
 .img-17 {
@@ -412,17 +445,13 @@ article {
 .line-five {
     width:70%;
     margin-left: 17rem;
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
     margin-top: 11rem;
 } 
 
-/* FOURTH SECTION END */
+/* SECTION IMG CHANGE END */
 
-/* FIFTH SECTION START */
-
-.fifth {
-    height: 120vh;
-}
+/* SECTION BUSINESS IMG BLOCK START */
 
 #blog {
     font-size: 90px;
@@ -435,7 +464,7 @@ article {
 
 .line-six {
     width: 9%;
-    color: rgb(151, 109, 32);
+    color:  rgb(236, 190, 104);
     margin-left: 25rem;
 }
 
@@ -458,21 +487,29 @@ article {
     border: 0.5px solid;
     padding: 2rem;
     border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    top: 0;
+    position: relative;
 }
 
 .btn-blogs:hover {
-    background-color: rgb(227, 189, 118); 
+    background-color:  rgb(236, 190, 104);
     border: 0px;
     color: rgb(68, 63, 63);
+    transform: translateX(-50px);
+    top: -5px;
 }
+
+.btn:hover + .btn {
+    transform: translateX(50px);
+  }
 
 .business-pics {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    margin-top: 5.5rem;
-    
+    margin-top: 5.5rem;  
 }   
     
 .date {
@@ -497,6 +534,7 @@ article {
     font-size: 21px;  
     font-weight: 700;
     font-family: NewYork PERSONAL USE, sans-serif;
+    margin-bottom: 9rem;
 }
 
 .description a {
@@ -505,33 +543,296 @@ article {
 }
 
 .description a:hover {
-    color:rgb(241, 202, 129);
+    color:  rgb(236, 190, 104);
 }
 
+/* SECTION BUSINESS IMG BLOG END */
 
+/* SECTION GIF ANIMATION START */
 
+.gif-animation {
+    height: 100vh;
+    background: url(../gif/sparkler-gif.gif) no-repeat;
+    background-color: linear-gradient (rgb(109, 69, 69));
+    background-color: linear-gradient (rgb(94, 92, 92));
+    background-size: cover;
+ }
+   
+ .line-seven {
+     width: 55%;
+     color:  rgb(236, 190, 104);
+     margin-left: 32rem;
+     margin-bottom: 1rem;
+ }
+ 
+ .caption {
+     display: inline-block;
+     justify-content: center;
+     align-self: center;
+     margin-top: 47rem;
+     margin-left: 43rem;
+     font-family: Euclid Circular A Regular, sans-serif;
+     font-size: 20px;
+ }
+     
+ .caption h2 {
+     font-size: 55px;
+     color: white;
+ }
+ 
+ .caption p {
+    margin-left: 48rem;
+    margin-top: -8rem;
+    width: 35%;
+    line-height: 2.6rem;
+    color: white
+ }
+ 
+ #divine {
+     margin-right: 2rem;
+ }
+ 
+ /* SECTION GIF ANIMATION END */
 
+ /* SECTION AWARD WINNER START */ 
 
+#nominated {
+    width: 50%;
+    margin: 5rem 0 0 15rem;
+    font-size: 100px;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+    text-align: left;
+    line-height: 8rem;
+}
 
+.innovation {
+    color: gray;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+    margin-left: 38rem;
+    margin-top: -1rem;
+    margin-bottom: -4rem;
+    width: 47vh;
+    text-align: inherit;
+}
 
+.best-award {
+    display: block;
+    justify-content: right;
+    text-align:right;
+    margin-right: 30rem;
+    margin-top: -7rem;
+    line-height: 2rem;
+}
 
+#developer {
+    color: white;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+    width: 103.5%;
+}
 
+#winner {
+    margin-right: 4rem;
+    color: white;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+}
 
+#contact {
+    margin-top: 10rem;
+    margin-left: 17rem;
+    margin-bottom: -5rem;
+    font-family: Euclid Circular A Regular, sans-serif;
+    font-size: 18px;
+    color: white;
+}
 
+.line-eight {
+    margin-top: 6rem;
+    width:70%;
+    margin-left: 17rem;
+    color:  rgb(236, 190, 104);
+}
 
+.great {
+    font-family: NewYork PERSONAL USE, sans-serif;
+    color: white;
+    width: 50%;
+    margin: 5rem 0 0 50rem;
+    font-size: 100px;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+    text-align: left;
+    line-height: 8rem;
+}
 
+.btn-talk {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Euclid Circular A Regular, sans-serif;
+    margin-left: 50rem;
+    margin-top: -5rem;
+    border: 0.5px solid;
+    padding: 2rem 3rem;
+    border-radius: 50%;
+    margin-bottom: 10rem;
+    position: relative;
+    top: 0;
+    transition: top 0.2s ease-out;
+    transform: translateX(-10px);
+}
 
+.btn-talk:hover {
+    background-color:  rgb(236, 190, 104);
+    border: 0px;
+    color: rgb(68, 63, 63);
+    top: -5px;
+}
 
+.btn-talk:hover + .btn {
+    transform: translateX(10px);
+  }
 
+.ninth-line {
+    color: rgb(236, 190, 104);
+    margin-top: 12rem;
+    
+}
 
+/* SECTION AWARD WINNER END */ 
 
+/* FOOTER AREA */
 
+footer {
+    height: 50vh;
+}
 
+footer img {
+    width: 7%;
+    color: white;
+    margin: 1.5rem 0 0 3rem;
+    margin-top: 5rem;
+}
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -3rem;
+    margin-right: 15rem;
+    gap: 15rem;
+}
 
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-family: Euclid Circular A Bold, sans-serif;
+    font-size: 18px;
+}
 
+.main-info {
+    list-style: none;
+    line-height: 2rem;
+}
 
+.second-info {
+    list-style: none;
+    line-height: 2rem;
+}
 
+.third-info {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.div-little {
+    margin-left: 67.8rem;
+    margin-top: -5rem;
+    line-height: 4rem; 
+}
+
+.little-line {
+    width: 12%;
+}
+
+#powered {
+    color: gray;
+    font-family: Euclid Circular A Bold, sans-serif;
+    font-size: 18px;
+    margin-bottom: -4rem;
+}
+
+.btn-flow {
+    color: white;
+    margin-left: 6.5rem;
+    font-family: Euclid Circular A Bold, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.btn-flow:hover {
+    color: rgb(236, 190, 104);
+    top: -5px;
+}
+
+.btn-flow:hover + .btn {
+    transform: translateX(10px);
+}
+
+.your-mail {
+    display: flex;
+    justify-content: right;
+    margin-top: -7.7rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    background: rgb(43, 41, 41);
+    color: white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-right: 10rem;
+    font-size: 15px;
+    width: 15%;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-submit {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Euclid Circular A Regular, sans-serif;
+    margin-left: 91rem;
+    margin-top: -6rem;
+    border: 0.5px solid;
+    padding: 2rem 3rem;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.3s ease-in-out;   
+    top: 0; 
+}
+
+.btn-submit:hover {
+    background-color:  rgb(236, 190, 104);
+    border: 0px;
+    color: rgb(68, 63, 63);
+    transform: translateX(-10px);
+    top: -5px;
+}
+
+.btn:hover + .btn {
+    transform: translateX(10px);
+}
 
 
 
